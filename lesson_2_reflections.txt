@@ -15,10 +15,17 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	making a version in a different language, experimenting with some new feature, working on different features with others... prevents clutter and allows the master to be a clean working implementation of your game
+
 How do the diagrams help you visualize the branch structure?
+
+	lets me know how commits are linked and how commits can be lost and unreachable.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
+	all the commits become one and accessible
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
 manually?
+	it can have trouble merging lines that conflict
